@@ -1,0 +1,27 @@
+@import "../../scss/style";
+
+.custom-navbar {
+  background: $MainBlueColor;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  font-family: "Chiron Hei HK", sans-serif;
+
+  .custom-nav {
+    .nav-link {
+      color: #aac2e3;
+      margin-right: 1.2rem;
+      font-weight: 500;
+      transition: color 0.3s ease, transform 0.3s ease;
+
+      &:hover {
+        color: #ffffff;
+        transform: scale(1.1);
+      }
+
+      &.active {
+        color: #ffffff;
+        font-weight: 700;
+        border-bottom: 2px solid #ffffff;
+      }
+    }
+  }
+}

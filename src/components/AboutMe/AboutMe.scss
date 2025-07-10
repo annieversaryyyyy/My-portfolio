@@ -1,0 +1,36 @@
+@import "../../scss/style";
+
+.aboutMeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+  // height: 50vh;
+  box-sizing: border-box;
+  font-family: "Chiron Hei HK", sans-serif;
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: $MainBlueColor;
+    font-family: "Dela Gothic One";
+  }
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .textContent {
+    max-width: 600px;
+    text-align: left;
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+    }
+  }
+}
