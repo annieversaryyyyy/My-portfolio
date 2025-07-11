@@ -1,0 +1,58 @@
+@import"../../scss/style";
+
+.educationContainer {
+  @include displayStyle;
+  font-family: $Chiron;
+
+  .info {
+    max-width: 900px;
+
+    .logoContent {
+      display: flex;
+      align-content: flex-start;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+
+    .eduTitle {
+      @include mainTitle;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #333;
+      margin-top: 3%;
+    }
+
+    .certificate {
+      border-radius: 30px;
+      border: 10px solid $MainBlueColor;
+      margin-top: 3%;
+    }
+  }
+}
+
+.workExp {
+  @include displayStyle;
+  .workContent {
+    max-width: 900px;
+    font-family: $Chiron;
+
+    .workSubtitle {
+        font-family: $Chiron;
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .workTitle {
+        @include mainTitle;
+        font-size: 2rem;
+      }
+
+      p {
+        margin-top: 3%;
+      }
+  }
+}

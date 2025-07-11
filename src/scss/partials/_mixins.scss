@@ -1,0 +1,15 @@
+@mixin displayStyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    flex-direction: column; 
+    font-size: 20px;
+}
+
+@mixin mainTitle {
+    color: $MainBlueColor;
+    font-family: $Dela;
+    margin-bottom: 3%;
+  } 

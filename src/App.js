@@ -1,6 +1,8 @@
 import "./App.scss";
 import AboutMe from "./components/AboutMe/AboutMe";
-import MyNavBar from "./components/NavBar/NavBar";
+import Education from "./components/Education/Education";
+import MyNavBar from "./components/MyNavBar/MyNavBar";
+import Skills from "./components/Skills/Skills"
 import React, { useState } from "react";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <header className="App-header">
         <MyNavBar toggleTheme={toggleTheme}/>
         <AboutMe />
+        <Education />
+        <Skills/>
       </header>
     </div>
   );

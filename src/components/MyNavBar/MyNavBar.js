@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import "./NavBar.scss";
+import "./MyNavBar.scss";
 import React from "react";
 
 const MyNavBar = ({ toggleTheme }) => {

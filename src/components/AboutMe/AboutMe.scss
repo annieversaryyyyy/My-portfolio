@@ -1,4 +1,5 @@
-@import "../../scss/style";
+
+@import"../../scss/style";
 
 .aboutMeContainer {
   display: flex;
@@ -6,15 +7,20 @@
   justify-content: center;
   padding: 40px;
   gap: 40px;
-  // height: 50vh;
   box-sizing: border-box;
-  font-family: "Chiron Hei HK", sans-serif;
+  font-family: $Chiron;
+  font-size: 20px;
+  margin-top: 3%;
 
-  .title {
+  .introTitle {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: $MainBlueColor;
-    font-family: "Dela Gothic One";
+    @include mainTitle ;
+  }
+
+  .introSubtitle {
+    font-family: $Dela;
+    font-size: 24px;
+    color: #322b2b;
   }
 
   .avatar {
@@ -24,13 +30,12 @@
     object-fit: cover;
   }
 
-  .textContent {
-    max-width: 600px;
+  .introContent {
+    max-width: 700px;
     text-align: left;
 
-    p {
-      font-size: 1.2rem;
-      margin-bottom: 0.75rem;
+    .introDescription {
+      font-size: 20px;
     }
   }
 }
