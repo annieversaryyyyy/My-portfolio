@@ -1,13 +1,21 @@
+import React from "react";
 import "./Skills.scss";
+import { skillsData } from "../../data";
 
 const Skills = () => {
-  return(
+  return (
     <div>
-      <i className="devicon-html5-plain colored"></i>
-      <i className="devicon-css3-plain colored"></i>
-      <i className="devicon-javascript-plain colored"></i>
-      <i className="devicon-react-original colored"></i>
-      <i className="devicon-git-plain colored"></i>{" "}
+      <div className="skillsContent">
+        <h1 className="skillsTitle">Технические навыки и инструменты:</h1>
+        <div className="icon-grid">
+          {skillsData.map((skill, index) => (
+            <div key={index} className="icon-item">
+              <i className={skill.icon}></i>
+              <span>{skill.label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
