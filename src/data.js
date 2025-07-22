@@ -39,3 +39,16 @@ export const skillsData = [
   { icon: "devicon-photoshop-plain colored", label: "Photoshop" },
   { icon: "devicon-jira-plain colored", label: "Jira" },
 ];
+
+export const petProjectsData = [
+  {
+    name: "mistica",
+    url: "https://mistica.tilda.ws/",
+    description: "описание  .... ",
+  },
+  {
+    name: "Burger-constructor",
+    url: "https://react-burger-constructor.vercel.app/",
+    description: "описание  .... ",
+  },
+];
