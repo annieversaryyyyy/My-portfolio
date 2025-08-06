@@ -1,11 +1,12 @@
 import React from "react";
 import { aboutMeData } from "../../data";
 import "./AboutMe.scss";
+import avatar from "../../assets/01img.jpg";
 
 const AboutMe = () => {
   return (
     <section className="aboutMeContainer">
-      <img className="avatar" src="/01img.jpg" alt="avatar" />
+      <img className="avatar" src={avatar} alt="avatar" />
       <div className="introContent">
         <h1 className="introTitle">{aboutMeData.title}</h1>
         <p className="introSubtitle">{aboutMeData.subtitle}</p>

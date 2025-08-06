@@ -1,7 +1,7 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import { petProjectsData } from '../../data';
-import './Projects.scss'; 
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import { petProjectsData } from "../../data";
+import "./Projects.scss";
 
 const Projects = () => {
   return (
@@ -12,13 +12,22 @@ const Projects = () => {
           <Card key={index} className="project-card">
             <Card.Body>
               <Card.Title>{pet.name}</Card.Title>
-              <Card.Text>{pet.description}</Card.Text>
-              <Button
-                variant="primary"
-                href={pet.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Card.Text>
+                {pet.description}
+                {pet.git ? (
+                  <>
+                    <br />
+                    <a
+                      href={pet.git}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                    GitHub репозиторий
+                    </a>
+                  </>
+                ) : null}
+              </Card.Text>
+              <Button href={pet.url} target="_blank" rel="noopener noreferrer">
                 Открыть проект
               </Button>
             </Card.Body>

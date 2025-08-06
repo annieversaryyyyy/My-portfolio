@@ -1,6 +1,8 @@
 import React from "react";
 import { educationInfoData, workExpData } from "../../data";
 import "./Education.scss";
+import certificate from "../../assets/certificate.jpg";
+import logo from "../../assets/logoAtr.PNG";
 
 const Education = () => {
   return (
@@ -9,12 +11,12 @@ const Education = () => {
         <div className="info">
           <h1 className="eduTitle">Мое образование :</h1>
           <div className="logoContent">
-            <img className="logo" src="/logoAtr.png" alt="logo" width="250px" />
+            <img className="logo" src={logo} alt="logo" width="250px" />
           </div>
           <p>{educationInfoData.description}</p>
           <img
             className="certificate"
-            src="/certificate.jpg"
+            src={certificate}
             alt="certificate"
             width="400px"
           />
