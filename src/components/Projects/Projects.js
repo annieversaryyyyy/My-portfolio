@@ -27,9 +27,14 @@ const Projects = () => {
                   </>
                 ) : null}
               </Card.Text>
-              <Button href={pet.url} target="_blank" rel="noopener noreferrer">
+              {pet.url ? (
+                <>
+                  <Button href={pet.url} target="_blank" rel="noopener noreferrer">
                 Открыть проект
               </Button>
+                </>
+              ) : null}
+            
             </Card.Body>
           </Card>
         ))}
