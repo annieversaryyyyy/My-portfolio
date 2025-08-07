@@ -5,7 +5,7 @@ import "./Projects.scss";
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <section className="projects-container" id="projects">
       <h2>Мои проекты</h2>
       <div className="projects-grid">
         {petProjectsData.map((pet, index) => (
@@ -17,29 +17,28 @@ const Projects = () => {
                 {pet.git ? (
                   <>
                     <br />
-                    <a
-                      href={pet.git}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                    GitHub репозиторий
+                    <a href={pet.git} target="_blank" rel="noopener noreferrer">
+                      GitHub репозиторий
                     </a>
                   </>
                 ) : null}
               </Card.Text>
               {pet.url ? (
                 <>
-                  <Button href={pet.url} target="_blank" rel="noopener noreferrer">
-                Открыть проект
-              </Button>
+                  <Button
+                    href={pet.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Открыть проект
+                  </Button>
                 </>
               ) : null}
-            
             </Card.Body>
           </Card>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

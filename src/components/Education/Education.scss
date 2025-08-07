@@ -3,7 +3,7 @@
 .educationContainer {
   @include displayStyle;
   font-family: $Chiron;
-
+  color: $WhiteColor;
   .info {
     max-width: 900px;
 
@@ -22,7 +22,6 @@
 
     p {
       font-size: 1.2rem;
-      color: #333;
       margin-top: 3%;
     }
 
@@ -39,6 +38,7 @@
   .workContent {
     max-width: 900px;
     font-family: $Chiron;
+    color: $WhiteColor;
 
     .workSubtitle {
       font-family: $Chiron;

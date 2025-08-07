@@ -6,7 +6,7 @@ import logo from "../../assets/logoAtr.PNG";
 
 const Education = () => {
   return (
-    <div>
+    <section id="education">
       <div className="educationContainer">
         <div className="info">
           <h1 className="eduTitle">Мое образование :</h1>
@@ -30,7 +30,7 @@ const Education = () => {
           <p>{workExpData.description}</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
