@@ -6,6 +6,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #000000 !important;
+  animation: fadeInBody 0.8s ease-out forwards;
+  animation-delay: 0.8s; 
+  opacity: 0; 
+}
+
+@keyframes fadeInBody {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 code {
