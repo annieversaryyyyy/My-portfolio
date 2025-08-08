@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import "./MyNavBar.scss";
 import React from "react";
 
-const MyNavBar = ({ toggleTheme }) => {
+const MyNavBar = () => {
   return (
     <Navbar expand="lg" className="custom-navbar" variant="dark" sticky="top">
       <Container>
@@ -17,9 +17,6 @@ const MyNavBar = ({ toggleTheme }) => {
             <Nav.Link href="#projects">Мои pet-проекты</Nav.Link>
             <Nav.Link href="#contact">Связь со мной</Nav.Link>
           </Nav>
-          <button onClick={toggleTheme} className="theme-toggle-btn">
-            Переключить тему
-          </button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

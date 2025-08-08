@@ -3,23 +3,18 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Education from "./components/Education/Education";
 import MyNavBar from "./components/MyNavBar/MyNavBar";
 import Projects from "./components/Projects/Projects";
-import Skills from "./components/Skills/Skills"
-import React, { useState } from "react";
+import Skills from "./components/Skills/Skills";
+import React from "react";
 
 function App() {
-  const [theme, setTheme] = useState("light");
-
-  const toggleTheme = () => {
-    setTheme((prev) => (prev === "light" ? "dark" : "light"));
-  };
   return (
-    <div className={`App ${theme}`}>
+    <div className="App">
       <header className="App-header">
-        <MyNavBar toggleTheme={toggleTheme}/>
+        <MyNavBar />
         <AboutMe />
         <Education />
-        <Skills/>
-        <Projects/>
+        <Skills />
+        <Projects />
       </header>
     </div>
   );

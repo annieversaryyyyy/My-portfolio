@@ -7,9 +7,9 @@ const Projects = () => {
   return (
     <section className="projects-container" id="projects">
       <h2>Мои проекты</h2>
-      <div className="projects-grid">
+      <div className="projectsGrid">
         {petProjectsData.map((pet, index) => (
-          <Card key={index} className="project-card">
+          <Card key={index} className="projectCard">
             <Card.Body>
               <Card.Title>{pet.name}</Card.Title>
               <Card.Text>
@@ -23,6 +23,14 @@ const Projects = () => {
                   </>
                 ) : null}
               </Card.Text>
+              <div className="techBlock">
+                {pet.tech &&
+                  pet.tech.map((item, i) => (
+                    <span key={i} className="stackItem">
+                      {item}
+                    </span>
+                  ))}
+              </div>
               {pet.url ? (
                 <>
                   <Button

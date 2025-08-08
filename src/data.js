@@ -49,6 +49,7 @@ export const petProjectsData = [
     url: "https://react-burger-constructor.vercel.app/",
     description: `Интерактивное веб-приложение, позволяющее пользователю самостоятельно собрать бургер, добавляя и удаляя ингредиенты. 
     Приложение визуализирует бургер в реальном времени и рассчитывает его стоимость.`,
+    tech: [ "React", "HTML", "CSS" ],
   },
   {
     name: "Country Info App",
@@ -56,6 +57,7 @@ export const petProjectsData = [
     url: "https://country-info-app-nu.vercel.app/",
     description: `Простое веб-приложение на ванильном JS, которое позволяет узнать информацию о любой стране,
      включая погоду в столице и данные о соседних странах.`,
+     tech: ["Vanilla JS", "HTML", "CSS" ],
   },
   {
     name: "Coctail Search App",
@@ -63,19 +65,21 @@ export const petProjectsData = [
     url: "https://coctail-search-app.vercel.app/",
     description: `Приложение для поиска и просмотра информации о коктейлях
     с возможностью открыть подробную информацию об ингредиентах и рецепте в модальном окне.`,
+    tech: ["Vanilla JS", "HTML", "CSS" ],
   },
   {
-    name: "To-Do React",
+    name: "To-Do",
     git: "https://github.com/annieversaryyyyy/React-ToDo-List.git",
     url: "https://react-to-do-plum-eta.vercel.app/",
     description: `Простой и удобный ToDo-лист для управления вашими задачами.`,
+    tech: ["React","Bootstrap",],
   },
   {
     name: "Social Feed App",
     git: "https://github.com/annieversaryyyyy/posts-app.git",
     url: false,
-    description: `Аналог социальной сети с лентой новостей, которое работает с кастомным API. Пользователи могут просматривать посты других людей: их сообщения, email, имя, фамилию и время создания поста.
-    Приложение написано на чистом JavaScript + Bootstrap`,
+    description: `Аналог социальной сети с лентой новостей, которое работает с кастомным API. Пользователи могут просматривать посты других людей: их сообщения, email, имя, фамилию и время создания поста.`,
+    tech: ["Vanilla JS", "Bootstrap" ],
   },
   {
     name: "Сайт для магазина на тильде",
@@ -89,9 +93,10 @@ export const petProjectsData = [
     description: `Сайт который также разрабатывала для реального клиента из Казани.На сайте можно посмотреть фотографии зала,отзывы гостей,меню,адрес,контактную информацию`,
   },
   {
-    name: "Приложение-игра по нахождению спрятанного предмета.",
+    name: "Игра по нахождению спрятанного предмета",
     git: "https://github.com/annieversaryyyyy/React-Bord-Game.git",
     url: "https://react-bord-game.vercel.app/",
     description: `Интерактивная браузерная  игра с игровым полем,похожая на "Сапер" `,
+    tech: ["Vanilla JS", "HTML", "CSS" ],
   },
 ];
