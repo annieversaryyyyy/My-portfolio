@@ -1,0 +1,51 @@
+@import "../../scss/style";
+
+.contactsContainer {
+    @include displayStyle;
+  
+    .contactsTitle {
+      @include mainTitle;
+      margin-bottom: 50px;
+    }
+  
+    .qr {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; 
+      gap: 40px; 
+      text-align: center;
+    }
+  
+    .qrItem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 300px;
+    }
+  
+    .qrImage {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    a{
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid white;
+        color: white;
+        background: none;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      
+        &:hover {
+          background: white;
+          color: black;
+        }
+    }
+  }
+  

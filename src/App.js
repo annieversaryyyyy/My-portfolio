@@ -4,6 +4,7 @@ import Education from "./components/Education/Education";
 import MyNavBar from "./components/MyNavBar/MyNavBar";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
+import Contacts from "./components/Contacts/Contacts";
 import React from "react";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Education />
         <Skills />
         <Projects />
+        <Contacts/>
       </header>
     </div>
   );

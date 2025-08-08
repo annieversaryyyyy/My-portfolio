@@ -15,7 +15,7 @@ const MyNavBar = () => {
             <Nav.Link href="#education">Образование</Nav.Link>
             <Nav.Link href="#skills">Мои скиллы</Nav.Link>
             <Nav.Link href="#projects">Мои pet-проекты</Nav.Link>
-            <Nav.Link href="#contact">Связь со мной</Nav.Link>
+            <Nav.Link href="#contacts">Связь со мной</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

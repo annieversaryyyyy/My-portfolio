@@ -9,7 +9,7 @@ const Education = () => {
     <section id="education">
       <div className="educationContainer">
         <div className="info">
-          <h1 className="eduTitle">Мое образование :</h1>
+          <h1 className="eduTitle">Мое образование</h1>
           <div className="logoContent">
             <img className="logo" src={logo} alt="logo" width="250px" />
           </div>

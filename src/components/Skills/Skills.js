@@ -5,7 +5,7 @@ import { skillsData } from "../../data";
 const Skills = () => {
   return (
     <section className="skillsContent" id="skills">
-        <h1 className="skillsTitle">Технические навыки и инструменты:</h1>
+        <h1 className="skillsTitle">Технические навыки и инструменты</h1>
         <div className="icon-grid">
           {skillsData.map((skill, index) => (
             <div key={index} className="icon-item">

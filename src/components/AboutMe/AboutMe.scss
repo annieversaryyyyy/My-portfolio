@@ -37,4 +37,20 @@
       font-size: 20px;
     }
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+    }
+
+    .introContent {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
 }
