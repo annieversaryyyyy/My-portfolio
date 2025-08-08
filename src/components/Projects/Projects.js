@@ -34,6 +34,7 @@ const Projects = () => {
               {pet.url ? (
                 <>
                   <Button
+                  className="myBtn"
                     href={pet.url}
                     target="_blank"
                     rel="noopener noreferrer"

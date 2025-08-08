@@ -59,13 +59,11 @@
 
   .btn {
     margin-top: auto;
-    align-self: center;
     display: inline-block;
+    align-self: center;
     padding: 8px 14px;
     border: 2px solid white;
-    color: white;
-    background: none;
-    text-decoration: none;
+    background: transparent;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
@@ -73,9 +71,9 @@
       border-color 0.4s ease, transform 0.3s ease;
 
     &:hover {
-      background-color: white;
-      color: black;
-      transform: translateY(-2px);
+      background-color: white !important;
+      color: black !important;
+      border-color: white !important;
     }
   }
 
