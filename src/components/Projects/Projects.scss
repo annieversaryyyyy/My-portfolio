@@ -9,90 +9,89 @@
     @include mainTitle;
     font-size: 2rem;
   }
-}
-
-.projectsGrid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-}
-
-.card {
-  border: rgb(43, 43, 43) solid 1px !important;
-}
-
-.projectCard {
-  border: none;
-  width: 300px;
-  border-radius: 12px;
-  border: none;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  position: relative;
-  background: #000000;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 21%,
-    rgb(3, 24, 66) 79%,
-    rgb(2, 2, 100) 100%
-  );
-
-  &:hover {
-    transform: translateY(-5px);
-  }
-
-  .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.8rem;
-    color: $WhiteColor;
-    display: flex;
-    flex-direction: column;
-
-    .card-title {
-      color: rgb(255, 255, 255);
-      font-family: $Dela;
-    }
-  }
-
-  .btn {
-    margin-top: auto;
-    display: inline-block;
-    align-self: center;
-    padding: 8px 14px;
-    border: 2px solid white;
-    background: transparent;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.4s ease, color 0.4s ease,
-      border-color 0.4s ease, transform 0.3s ease;
-
-    &:hover {
-      background-color: white !important;
-      color: black !important;
-      border-color: white !important;
-    }
-  }
-
-  a {
-    color: white;
-  }
-
-  .techBlock {
-    margin: 12px 0;
+  .projectsGrid {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 1.5rem;
+    justify-content: center;
   }
 
-  .stackItem {
-    background-color: #48208d;
-    color: white;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.85rem;
+  .card {
+    border: rgb(43, 43, 43) solid 1px !important;
+  }
+
+  .projectCard {
+    border: none;
+    width: 300px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    position: relative;
+    background: #000000;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 21%,
+      rgb(3, 24, 66) 79%,
+      rgb(2, 2, 100) 100%
+    );
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.8rem;
+      color: $WhiteColor;
+      display: flex;
+      flex-direction: column;
+
+      .card-title {
+        color: rgb(255, 255, 255);
+        font-family: $Dela;
+      }
+    }
+
+    .btn {
+      margin-top: auto;
+      display: inline-block;
+      align-self: center;
+      padding: 8px 14px;
+      border: 2px solid white;
+      background: transparent;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.4s ease, color 0.4s ease,
+        border-color 0.4s ease, transform 0.3s ease;
+
+      &:hover {
+        background-color: white !important;
+        color: black !important;
+        border-color: white !important;
+      }
+    }
+
+    a {
+      color: white;
+    }
+
+    .techBlock {
+      margin: 12px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .stackItem {
+      background-color: #48208d;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
   }
 }
