@@ -32,14 +32,19 @@ export const skillsData = [
   { icon: "devicon-redux-original colored", label: "Redux" },
   { icon: "devicon-git-plain colored", label: "Git" },
   { icon: "devicon-jquery-plain", label: "JQuery" },
+  { icon: "devicon-nextjs-original-wordmark", label: "Next.JS" },
+  { icon: "devicon-typescript-plain", label: "Typescript" },
   { icon: "devicon-nodejs-plain-wordmark colored", label: "NodeJS" },
   { icon: "devicon-express-original colored", label: "Express JS" },
   { icon: "devicon-postman-plain colored", label: "Postman" },
   { icon: "devicon-mongodb-plain colored", label: "MongoDB" },
   { icon: "devicon-bootstrap-plain-wordmark colored", label: "Bootstrap" },
   { icon: "devicon-materialui-plain colored", label: "MUI" },
+  { icon: "devicon-tailwindcss-original colored", label: "Tailwind" },
   { icon: "devicon-photoshop-plain colored", label: "Photoshop" },
+  { icon: "devicon-figma-plain", label: "Figma" },
   { icon: "devicon-jira-plain colored", label: "Jira" },
+  
 ];
 
 export const petProjectsData = [
@@ -94,10 +99,5 @@ export const petProjectsData = [
     url: "https://mistica.tilda.ws/",
     description:
       "Сайт который я сделала реальному заказчику из Бишкека.Онлайн-магазин ювелирных изделий,с возможностью оформить заказ через сайт",
-  },
-  {
-    name: `Сайт для кафе на тильде `,
-    url: "https://cafe-caramel.tilda.ws/",
-    description: `Сайт который также разрабатывала для реального клиента из Казани.На сайте можно посмотреть фотографии зала,отзывы гостей,меню,адрес,контактную информацию`,
   },
 ];
