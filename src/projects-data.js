@@ -49,11 +49,19 @@ export const skillsData = [
 
 export const petProjectsData = [
   {
+    name: "Сайт c рецептами",
+    git: "https://github.com/annieversaryyyyy/Recipe-App.git",
+    url: "https://healthy-recipe-one.vercel.app/",
+    description:
+      "Этот сайт позволяет пользователям просматривать рецепты, редактировать их, также добавлять свои рецепты если юзер залогинен",
+    tech: ["Next.js", "Typescript", "HeroUI", "PostgreSQL"],
+  },
+  {
     name: "Сайт для заказа еды",
     git: "https://github.com/annieversaryyyyy/Food-Ordering-System.git",
     url: "https://food-ordering-system-jet-mu.vercel.app/",
     description:
-      "Это веб-приложение,которое позволяет пользователям просматривать меню товаров,добавлять их в заказ и управлять содержимым корзины.",
+      "Это веб-приложение,которое позволяет пользователям просматривать меню товаров, добавлять их в заказ и управлять содержимым корзины.",
     tech: ["React + Vite", "Tailwind"],
   },
   {
