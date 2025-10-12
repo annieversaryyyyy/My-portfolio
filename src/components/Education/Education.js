@@ -1,5 +1,5 @@
 import React from "react";
-import { educationInfoData, workExpData } from "../../data";
+import { educationInfoData, workExpData } from "../../projects-data";
 import "./Education.scss";
 import certificate from "../../assets/certificate.jpg";
 import logo from "../../assets/logoAtr.PNG";

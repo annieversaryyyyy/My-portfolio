@@ -54,21 +54,21 @@ export const petProjectsData = [
     url: "https://healthy-recipe-one.vercel.app/",
     description:
       "Этот сайт позволяет пользователям просматривать рецепты, редактировать их, также добавлять свои рецепты если юзер залогинен",
-    tech: ["Next.js", "Typescript", "HeroUI", "PostgreSQL"],
+    tech: ["Next.js", "Typescript", "HeroUI", "PostgreSQL", "Tailwind"],
   },
   {
     name: "Сайт для заказа еды",
     git: "https://github.com/annieversaryyyyy/Food-Ordering-System.git",
     url: "https://food-ordering-system-jet-mu.vercel.app/",
     description:
-      "Это веб-приложение,которое позволяет пользователям просматривать меню товаров, добавлять их в заказ и управлять содержимым корзины.",
+      "Сайт который позволяет пользователям просматривать меню товаров, добавлять их в заказ и управлять содержимым корзины.",
     tech: ["React + Vite", "Tailwind"],
   },
   {
     name: "Country Info App",
     git: "https://github.com/annieversaryyyyy/country-weather-border-info-app.git",
     url: "https://country-info-app-nu.vercel.app/",
-    description: `Простое веб-приложение на ванильном JS, которое позволяет узнать информацию о любой стране,
+    description: `Простой сайт на ванильном JS, которое позволяет узнать информацию о любой стране,
      включая погоду в столице и данные о соседних странах.`,
     tech: ["Vanilla JS", "HTML", "CSS"],
   },
@@ -76,7 +76,7 @@ export const petProjectsData = [
     name: "Coctail Search App",
     git: "https://github.com/annieversaryyyyy/Coctail-Search-App.git",
     url: "https://coctail-search-app.vercel.app/",
-    description: `Приложение для поиска и просмотра информации о коктейлях
+    description: `Сайт для поиска и просмотра информации о коктейлях
     с возможностью открыть подробную информацию об ингредиентах и рецепте в модальном окне.`,
     tech: ["Vanilla JS", "HTML", "CSS"],
   },
@@ -98,8 +98,8 @@ export const petProjectsData = [
     name: "Burger-constructor",
     git: "https://github.com/annieversaryyyyy/React-Burger-Constructor.git",
     url: "https://react-burger-constructor.vercel.app/",
-    description: `Интерактивное веб-приложение, позволяющее пользователю самостоятельно собрать бургер, добавляя и удаляя ингредиенты. 
-    Приложение визуализирует бургер в реальном времени и рассчитывает его стоимость.`,
+    description: `Интерактивный сайт, позволяющий пользователю самостоятельно собрать бургер, добавляя и удаляя ингредиенты. 
+    Сайт визуализирует бургер в реальном времени и рассчитывает его стоимость.`,
     tech: ["React", "HTML", "CSS"],
   },
   {

@@ -1,6 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import { petProjectsData } from "../../data";
+import { petProjectsData } from "../../projects-data";
 import "./Projects.scss";
 
 const Projects = () => {

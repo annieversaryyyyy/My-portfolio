@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutMeData } from "../../data";
+import { aboutMeData } from "../../projects-data";
 import "./AboutMe.scss";
 import avatar from "../../assets/01img.jpg";
 
