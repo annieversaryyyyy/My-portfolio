@@ -34,6 +34,7 @@ export const skillsData = [
   { icon: "devicon-jquery-plain", label: "JQuery" },
   { icon: "devicon-nextjs-original-wordmark", label: "Next.JS" },
   { icon: "devicon-typescript-plain", label: "Typescript" },
+  { icon: "devicon-threejs-original", label: "Three.js" },
   { icon: "devicon-nodejs-plain-wordmark colored", label: "NodeJS" },
   { icon: "devicon-express-original colored", label: "Express JS" },
   { icon: "devicon-postman-plain colored", label: "Postman" },
@@ -106,6 +107,6 @@ export const petProjectsData = [
     name: "Сайт для магазина на тильде",
     url: "https://mistica.tilda.ws/",
     description:
-      "Сайт который я сделала реальному заказчику из Бишкека.Онлайн-магазин ювелирных изделий,с возможностью оформить заказ через сайт",
+      "Сайт который я сделала реальному заказчику.Онлайн-магазин ювелирных изделий,с возможностью оформить заказ через сайт",
   },
 ];
