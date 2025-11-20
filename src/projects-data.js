@@ -45,7 +45,6 @@ export const skillsData = [
   { icon: "devicon-photoshop-plain colored", label: "Photoshop" },
   { icon: "devicon-figma-plain", label: "Figma" },
   { icon: "devicon-jira-plain colored", label: "Jira" },
-  
 ];
 
 export const petProjectsData = [
@@ -58,12 +57,11 @@ export const petProjectsData = [
     tech: ["Next.js", "Typescript", "HeroUI", "PostgreSQL", "Tailwind"],
   },
   {
-    name: "Сайт для заказа еды",
-    git: "https://github.com/annieversaryyyyy/Food-Ordering-System.git",
-    url: "https://food-ordering-system-jet-mu.vercel.app/",
-    description:
-      "Сайт который позволяет пользователям просматривать меню товаров, добавлять их в заказ и управлять содержимым корзины.",
-    tech: ["React + Vite", "Tailwind"],
+    name: "Post App",
+    git: "https://github.com/annieversaryyyyy/React-Post-App.git",
+    url: "https://react-post-app-gray.vercel.app/",
+    description: `Сайт с полностью реализованным CRUD-функционалом: пользователи могут создавать, просматривать, редактировать и удалять посты. Проект использует Firebase для хранения данных, поддерживает уведомления (toast), пагинацию и удобный интерфейс.`,
+    tech: ["React", "Firebase", "Axios", "React Router DOM"],
   },
   {
     name: "Country Info App",
@@ -71,7 +69,7 @@ export const petProjectsData = [
     url: "https://country-info-app-nu.vercel.app/",
     description: `Простой сайт на ванильном JS, которое позволяет узнать информацию о любой стране,
      включая погоду в столице и данные о соседних странах.`,
-    tech: ["Vanilla JS", "HTML", "CSS"],
+    tech: ["JS", "HTML", "CSS"],
   },
   {
     name: "Coctail Search App",
@@ -79,34 +77,28 @@ export const petProjectsData = [
     url: "https://coctail-search-app.vercel.app/",
     description: `Сайт для поиска и просмотра информации о коктейлях
     с возможностью открыть подробную информацию об ингредиентах и рецепте в модальном окне.`,
-    tech: ["Vanilla JS", "HTML", "CSS"],
+    tech: ["JS", "HTML", "CSS"],
   },
   {
-    name: "To-Do",
-    git: "https://github.com/annieversaryyyyy/React-ToDo-List.git",
-    url: "https://react-to-do-plum-eta.vercel.app/",
-    description: `Простой и удобный ToDo-лист для управления вашими задачами.`,
-    tech: ["React", "Bootstrap"],
+    name: "Сайт для заказа еды",
+    git: "https://github.com/annieversaryyyyy/Food-Ordering-System.git",
+    url: "https://food-ordering-system-jet-mu.vercel.app/",
+    description:
+      "Простой сайт который позволяет просматривать меню товаров, добавлять их в заказ и управлять содержимым корзины.",
+    tech: ["React + Vite", "Tailwind"],
   },
   {
     name: "Social Feed App",
     git: "https://github.com/annieversaryyyyy/posts-app.git",
     url: false,
     description: `Аналог социальной сети с лентой новостей, которое работает с кастомным API. Пользователи могут просматривать посты других людей: их сообщения, email, имя, фамилию и время создания поста.`,
-    tech: ["Vanilla JS", "Bootstrap"],
-  },
-  {
-    name: "Burger-constructor",
-    git: "https://github.com/annieversaryyyyy/React-Burger-Constructor.git",
-    url: "https://react-burger-constructor.vercel.app/",
-    description: `Интерактивный сайт, позволяющий пользователю самостоятельно собрать бургер, добавляя и удаляя ингредиенты. 
-    Сайт визуализирует бургер в реальном времени и рассчитывает его стоимость.`,
-    tech: ["React", "HTML", "CSS"],
+    tech: ["JS", "Bootstrap"],
   },
   {
     name: "Сайт для магазина на тильде",
     url: "https://mistica.tilda.ws/",
     description:
-      "Сайт который я сделала реальному заказчику.Онлайн-магазин ювелирных изделий,с возможностью оформить заказ через сайт",
+      "Онлайн-магазин ювелирных изделий,с возможностью оформить заказ через сайт",
+    tech: ["Tilda"],
   },
 ];
