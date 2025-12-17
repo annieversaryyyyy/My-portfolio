@@ -24,27 +24,47 @@ export const workExpData = {
 };
 
 export const skillsData = [
-  { icon: "devicon-html5-plain colored", label: "HTML" },
-  { icon: "devicon-css3-plain colored", label: "CSS" },
-  { icon: "devicon-javascript-plain colored", label: "JavaScript" },
-  { icon: "devicon-sass-original colored", label: "Sass" },
-  { icon: "devicon-react-original colored", label: "React" },
-  { icon: "devicon-redux-original colored", label: "Redux" },
-  { icon: "devicon-git-plain colored", label: "Git" },
-  { icon: "devicon-jquery-plain", label: "JQuery" },
-  { icon: "devicon-nextjs-original-wordmark", label: "Next.JS" },
-  { icon: "devicon-typescript-plain", label: "Typescript" },
-  { icon: "devicon-threejs-original", label: "Three.js" },
-  { icon: "devicon-nodejs-plain-wordmark colored", label: "NodeJS" },
-  { icon: "devicon-express-original colored", label: "Express JS" },
-  { icon: "devicon-postman-plain colored", label: "Postman" },
-  { icon: "devicon-mongodb-plain colored", label: "MongoDB" },
-  { icon: "devicon-bootstrap-plain-wordmark colored", label: "Bootstrap" },
-  { icon: "devicon-materialui-plain colored", label: "MUI" },
-  { icon: "devicon-tailwindcss-original colored", label: "Tailwind" },
-  { icon: "devicon-photoshop-plain colored", label: "Photoshop" },
-  { icon: "devicon-figma-plain", label: "Figma" },
-  { icon: "devicon-jira-plain colored", label: "Jira" },
+  { icon: "devicon-html5-plain colored", label: "HTML", key: "main" },
+  { icon: "devicon-css3-plain colored", label: "CSS", key: "main" },
+  {
+    icon: "devicon-javascript-plain colored",
+    label: "JavaScript",
+    key: "main",
+  },
+  { icon: "devicon-sass-original colored", label: "Sass", key: "main" },
+  { icon: "devicon-react-original colored", label: "React", key: "main" },
+  { icon: "devicon-redux-original colored", label: "Redux", key: "main" },
+  { icon: "devicon-git-plain colored", label: "Git", key: "main" },
+  { icon: "devicon-jquery-plain", label: "JQuery", key: "main" },
+  { icon: "devicon-nextjs-original-wordmark", label: "Next.JS", key: "learn" },
+  { icon: "devicon-typescript-plain", label: "Typescript", key: "learn" },
+  { icon: "devicon-threejs-original", label: "Three.js", key: "main" },
+  {
+    icon: "devicon-nodejs-plain-wordmark colored",
+    label: "NodeJS",
+    key: "main",
+  },
+  {
+    icon: "devicon-express-original colored",
+    label: "Express JS",
+    key: "main",
+  },
+  { icon: "devicon-postman-plain colored", label: "Postman", key: "main" },
+  { icon: "devicon-mongodb-plain colored", label: "MongoDB", key: "main" },
+  {
+    icon: "devicon-bootstrap-plain-wordmark colored",
+    label: "Bootstrap",
+    key: "main",
+  },
+  { icon: "devicon-materialui-plain colored", label: "MUI", key: "main" },
+  {
+    icon: "devicon-tailwindcss-original colored",
+    label: "Tailwind",
+    key: "main",
+  },
+  { icon: "devicon-photoshop-plain colored", label: "Photoshop", key: "main" },
+  { icon: "devicon-figma-plain", label: "Figma", key: "main" },
+  { icon: "devicon-jira-plain colored", label: "Jira", key: "main" },
 ];
 
 export const petProjectsData = [
@@ -54,25 +74,24 @@ export const petProjectsData = [
     url: "https://healthy-recipe-one.vercel.app/",
     description:
       "Этот сайт позволяет пользователям просматривать рецепты, редактировать их, также добавлять свои рецепты если юзер залогинен",
-    tech: ["Next.js", "Typescript", "HeroUI", "PostgreSQL", "Tailwind"],
+    tech: [
+      "Next.js",
+      "Typescript",
+      "HeroUI",
+      "PostgreSQL",
+      "Tailwind",
+      "Zustand",
+    ],
   },
   {
     name: "Post App",
     git: "https://github.com/annieversaryyyyy/React-Post-App.git",
     url: "https://react-post-app-gray.vercel.app/",
     description: `Сайт с полностью реализованным CRUD-функционалом: пользователи могут создавать, просматривать, редактировать и удалять посты. Проект использует Firebase для хранения данных, поддерживает уведомления (toast), пагинацию и удобный интерфейс.`,
-    tech: ["React", "Firebase", "Axios", "React Router DOM"],
+    tech: ["React", "Firebase", "Axios", "React Router DOM", "REST API"],
   },
   {
-    name: "Country Info App",
-    git: "https://github.com/annieversaryyyyy/country-weather-border-info-app.git",
-    url: "https://country-info-app-nu.vercel.app/",
-    description: `Простой сайт на ванильном JS, которое позволяет узнать информацию о любой стране,
-     включая погоду в столице и данные о соседних странах.`,
-    tech: ["JS", "HTML", "CSS"],
-  },
-  {
-    name: "Coctail Search App",
+    name: "Cocktail Search App",
     git: "https://github.com/annieversaryyyyy/Coctail-Search-App.git",
     url: "https://coctail-search-app.vercel.app/",
     description: `Сайт для поиска и просмотра информации о коктейлях
@@ -86,19 +105,5 @@ export const petProjectsData = [
     description:
       "Простой сайт который позволяет просматривать меню товаров, добавлять их в заказ и управлять содержимым корзины.",
     tech: ["React + Vite", "Tailwind"],
-  },
-  {
-    name: "Social Feed App",
-    git: "https://github.com/annieversaryyyyy/posts-app.git",
-    url: false,
-    description: `Аналог социальной сети с лентой новостей, которое работает с кастомным API. Пользователи могут просматривать посты других людей: их сообщения, email, имя, фамилию и время создания поста.`,
-    tech: ["JS", "Bootstrap"],
-  },
-  {
-    name: "Сайт для магазина на тильде",
-    url: "https://mistica.tilda.ws/",
-    description:
-      "Онлайн-магазин ювелирных изделий,с возможностью оформить заказ через сайт",
-    tech: ["Tilda"],
   },
 ];
