@@ -84,11 +84,36 @@ export const petProjectsData = [
     ],
   },
   {
-    name: "Post App",
-    git: "https://github.com/annieversaryyyyy/React-Post-App.git",
-    url: "https://react-post-app-gray.vercel.app/",
-    description: `Сайт с полностью реализованным CRUD-функционалом: пользователи могут создавать, просматривать, редактировать и удалять посты. Проект использует Firebase для хранения данных, поддерживает уведомления (toast), пагинацию и удобный интерфейс.`,
-    tech: ["React", "Firebase", "Axios", "React Router DOM", "REST API"],
+    name: "Ювелирный магазин",
+    git: "https://github.com/annieversaryyyyy/Shop.git",
+    description: `Full-stack приложение ювелирного магазина с возможностью просмотра товаров. Реализована аутентификация пользователей (включая Google), ролевая модель (администратор и пользователь). `,
+    tech: [
+      "React",
+      "MongoDB",
+      "Mongoose",
+      "Redux Toolkit",
+      "Redux Saga",
+      "Express JS",
+      "Node JS",
+      "REST API",
+      "Google auth library",
+      "CodeceptJS",
+      "MUI",
+    ],
+  },
+  {
+    name: "Цитатник Джейсона Стэтхэма",
+    git: "https://github.com/annieversaryyyyy/Statham-quotes-app.git",
+    url: "https://quotes-app-blush-kappa.vercel.app/",
+    description: `Сайт с цитатами Джейсона Стэтхэма, где пользователи могут просматривать цитаты с фильтрацией, а также создавать и удалять цитаты. Проект поддерживает уведомления (toast), пагинацию`,
+    tech: [
+      "TypeScript",
+      "React",
+      "React Router",
+      "Firebase",
+      "Axios",
+      "REST API",
+    ],
   },
   {
     name: "Cocktail Search App",
@@ -97,13 +122,5 @@ export const petProjectsData = [
     description: `Сайт для поиска и просмотра информации о коктейлях
     с возможностью открыть подробную информацию об ингредиентах и рецепте в модальном окне.`,
     tech: ["JS", "HTML", "CSS"],
-  },
-  {
-    name: "Сайт для заказа еды",
-    git: "https://github.com/annieversaryyyyy/Food-Ordering-System.git",
-    url: "https://food-ordering-system-jet-mu.vercel.app/",
-    description:
-      "Простой сайт который позволяет просматривать меню товаров, добавлять их в заказ и управлять содержимым корзины.",
-    tech: ["React + Vite", "Tailwind"],
   },
 ];
